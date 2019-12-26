@@ -1,0 +1,16 @@
+.main-header {
+  display: flex;
+  padding: .5rem 1rem;
+  border-bottom: 2px solid;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  margin-top: .5rem;
+}
+
+.nav-actions > div {
+  padding: 1rem;
+}
