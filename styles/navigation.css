@@ -1,5 +1,6 @@
 .main-header {
   display: flex;
+  justify-content: space-between;
   padding: .5rem 1rem;
   border-bottom: 2px solid;
 }
@@ -13,4 +14,9 @@
 
 .nav-actions > div {
   padding: 1rem;
+  font-weight: bold;
+}
+
+.about {
+  border-bottom: 2px solid;
 }

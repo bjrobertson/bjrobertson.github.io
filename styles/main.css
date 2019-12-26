@@ -1,5 +1,5 @@
 * {
-  font-family: monospace;
+  font-family: 'roboto', sans-serif;
   font-size: 16px;
 }
 
@@ -12,11 +12,17 @@ body {
   width: auto;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .content-wrapper {
+    padding: 1rem 2.5rem;
+    width: auto;
+  }
 
+}
 
 .logo-main {
-  background-image: url("images/logo-v1.png");
+  background-image: url("images/logo-v2.png");
   height: 50px;
-  width: 30px;
+  background-size: cover;
 
 }
