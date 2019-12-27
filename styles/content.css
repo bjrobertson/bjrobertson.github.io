@@ -24,7 +24,8 @@
 }
 
 .bio {
-  padding-right: 1rem;
+  margin: 0.5rem auto;
+  max-width: 800px;
   font-size: 1.5rem;
   color: #536878;
 }
