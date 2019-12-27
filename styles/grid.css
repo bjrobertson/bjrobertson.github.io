@@ -12,7 +12,7 @@
 .grid--half {
   grid-column: span 6;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media all and (min-width : 320px) and (max-width : 780px) {
   .grid--half {
     grid-column: span 12;
   }
@@ -22,7 +22,7 @@
 .grid--third {
   grid-column: span 4;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media all and (min-width : 320px) and (max-width : 780px) {
   .grid--third {
     grid-column: span 12;
   }
@@ -32,7 +32,7 @@
 .grid--fourth {
   grid-column: span 3;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media all and (min-width : 320px) and (max-width : 780px) {
   .grid--fourth {
     grid-column: span 12;
   }

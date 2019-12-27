@@ -4,7 +4,7 @@
   color: white;
 }
 
-@media all and (min-width : 320px) and (max-width : 480px) {
+@media all and (min-width : 320px) and (max-width : 780px) {
   .content-wrapper {
     padding: 1rem 2.5rem;
     width: auto;
@@ -40,4 +40,11 @@
 
 .section-services {
   background-color: #536878;
+}
+.section-header {
+  margin-top: 0;
+}
+
+.section-about {
+  margin-top: 5rem;
 }

@@ -16,33 +16,35 @@
   <link rel="stylesheet" href="styles/navigation.css">
   <link rel="stylesheet" href="styles/content.css">
   <link rel="stylesheet" href="styles/grid.css">
-
 </head>
 
 <body>
   <header class="main-header">
     <div class="logo-main"></div>
     <nav class="nav-actions">
-      <div class="about">
+      <a class="nav-about" id="nav-about" onclick="aboutScroll">
         About
-      </div>
-      <div class="">
-        Contact
-      </div>
-      <div class="">
+      </a>
+      <a id="nav-services">
+        Services
+      </a>
+      <a class="nav-work">
         Work
-      </div>
+      </a>
+      <a class="nav-contact">
+        Contact
+      </a>
     </nav>
   </header>
 
-  <div class="content-wrapper grid">
+  <div class="content-wrapper section-about grid" id="sectionAbout">
     <img src="images/intro-pic2.jpg" alt="into picture" class="intro-pic grid--full">
     <p class="bio grid--full">Hello! I'm Brandon Robertson. I'm a Product/UX designer. I specialize in seeing the entire design process through from discovery to implementation. Creating unforgettable experiences through amazing design is what drives me.</p>
   </div>
 
-  <div class="section-services content-wrapper">
+  <div class="section-services content-wrapper" id="sectionServices">
     <div class="grid grid--full">
-      <h1 class="grid--full">Services</h1>
+      <h1 class="grid--full section-header">Services</h1>
       <div class="card grid--third">
         <div class="icon icon-discover"></div>
         <h2>Discover</h2>
@@ -63,4 +65,6 @@
     </div>
   </div>
 </body>
+
+<script src="scripts/scroll.js"></script>
 </html>

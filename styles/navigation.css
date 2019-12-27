@@ -2,22 +2,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .5rem 1rem;
+  /* padding: .5rem 1rem; */
   background-color: #d5dce2;
   color: #536878;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo-main {
+  background-image: url("../images/logo-v2.png");
+  width: 35px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0.7rem;
 }
 
 .nav-actions {
   display: flex;
   align-items: center;
-  margin-left: 1.5rem;
 }
 
-.nav-actions > div {
-  padding: 1rem;
+.nav-actions > a {
+  padding: 0.7rem;
   font-weight: bold;
-}
-
-.about {
-  color: #E76F00;
+  cursor: pointer;
 }
