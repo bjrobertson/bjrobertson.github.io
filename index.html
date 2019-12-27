@@ -1,4 +1,4 @@
-<!doctype html>
+<! Doctype html>
 
 <html lang="en">
 <head>
@@ -14,31 +14,53 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/navigation.css">
+  <link rel="stylesheet" href="styles/content.css">
+  <link rel="stylesheet" href="styles/grid.css">
 
 </head>
 
 <body>
-
   <header class="main-header">
-    <img src="images/logo-v2.png" atl="main logo" class="logo-main">
+    <div class="logo-main"></div>
     <nav class="nav-actions">
-      <div>
-        <p class="about">About</p>
+      <div class="about">
+        About
       </div>
       <div class="">
-        <p>Contact</p>
+        Contact
       </div>
       <div class="">
-        <p>Work</p>
+        Work
       </div>
     </nav>
   </header>
 
-  <div class="content-wrapper">
-    <div class="">
-      <p>Hello! I'm Brandon Robertson. I'm a Product/UX designer with experience in research. Creating unforgettable experiences through amazing design is what drives me.</p>
-    </div>
+  <div class="content-wrapper grid">
+    <img src="images/intro-pic2.jpg" alt="into picture" class="intro-pic grid--full">
+    <p class="bio grid--full">Hello! I'm Brandon Robertson. I'm a Product/UX designer. I specialize in seeing the entire design process through from discovery to implementation. Creating unforgettable experiences through amazing design is what drives me.</p>
   </div>
 
+  <div class="section-services content-wrapper">
+    <div class="grid grid--full">
+      <h1 class="grid--full">Services</h1>
+      <div class="card grid--third">
+        <div class="icon icon-discover"></div>
+        <h2>Discover</h2>
+        <p>Bring ultimate value to your product by discovering what your users want and need most. Setting your priorities on what's most important will ensure your products are successful.</p>
+      </div>
+
+      <div class="card grid--third">
+        <div class="icon icon-create"></div>
+        <h2>Design</h2>
+        <p>Create websites that are innovative and fresh.</p>
+      </div>
+
+      <div class="card grid--third">
+        <div class="icon icon-responsive"></div>
+        <h2>Responive Web Design</h2>
+        <p>All websites should be optimized for mobile and tablet usage. I work with a "mobile-first" approach.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

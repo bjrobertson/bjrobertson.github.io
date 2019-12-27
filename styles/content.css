@@ -1,0 +1,42 @@
+.content-wrapper {
+  padding: 4rem 5rem;
+  width: auto;
+  color: white;
+}
+
+@media all and (min-width : 320px) and (max-width : 480px) {
+  .content-wrapper {
+    padding: 1rem 2.5rem;
+    width: auto;
+  }
+}
+
+.intro-pic {
+  height: 200px;
+  border-radius: 100px;
+  max-width: 200px;
+  margin: auto;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.bio {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  color: #536878;
+}
+
+.card {
+  padding: 1rem;
+  /* border: 3px solid #E76F00; */
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+}
+
+.section-services {
+  background-color: #536878;
+}

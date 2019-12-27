@@ -1,0 +1,39 @@
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(12,1fr)
+}
+
+.grid--full {
+  grid-column: span 12;
+}
+
+
+.grid--half {
+  grid-column: span 6;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .grid--half {
+    grid-column: span 12;
+  }
+}
+
+
+.grid--third {
+  grid-column: span 4;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .grid--third {
+    grid-column: span 12;
+  }
+}
+
+
+.grid--fourth {
+  grid-column: span 3;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .grid--fourth {
+    grid-column: span 12;
+  }
+}
