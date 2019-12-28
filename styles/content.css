@@ -18,9 +18,13 @@
   margin: auto;
 }
 
-.hero-container {
-  display: flex;
-  align-items: center;
+.work-pic {
+  height: 70px;
+  max-width: 280px;
+}
+
+.header-work {
+  color: #536878;
 }
 
 .bio {
@@ -41,10 +45,11 @@
 .section-services {
   background-color: #536878;
 }
-.section-header {
-  margin-top: 0;
-}
 
 .section-about {
   margin-top: 5rem;
+}
+
+.section-header {
+  margin-top: 0;
 }
